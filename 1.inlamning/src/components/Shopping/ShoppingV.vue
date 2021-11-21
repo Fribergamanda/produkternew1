@@ -1,6 +1,6 @@
 <template>
   <div class="vagn">
-    <shopping-prod v-for="item in shoppingV" :key="item.produkt.id" :item="item" />
+    <shopping-prod v-for="item in shoppingV" :key="item.ProductId" :item="item" />
 
     <div v-if="shoppingV.length < 1" class="cart-item">
       <div class="p-2 d-flex justify-content-center align-items-center">

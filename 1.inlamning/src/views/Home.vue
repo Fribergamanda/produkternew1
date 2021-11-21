@@ -1,7 +1,9 @@
 <template>
   <div class="">
     <h1>Startsida</h1>
-    <p>Välkommen till Dammsugare.shop</p>
+    <p>Välkommen till Dammsugare</p>
+    {{Products}}
+    {{Product}}
   </div>
 </template>
 
@@ -9,7 +11,7 @@
 
 
 export default {
-props:['produkter'],
+props:['Products', 'Product'],
   components: {
     
   }

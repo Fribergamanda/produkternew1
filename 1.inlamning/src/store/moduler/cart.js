@@ -15,18 +15,18 @@ export default {
     }
   },
   mutations: {
-    ADD_TO_CART: (state, { produkt, quantity }) => {
-      let exists = state.cart.find(item => item.produkt.id === produkt.id)
+    ADD_TO_CART: (state, { Product, quantity }) => {
+      let exists = state.cart.find(item => item.Product.id === Product.id)
       if(exists) {
         exists.quantity += quantity
         return
       }
-      state.cart.push({produkt, quantity})
+      state.cart.push({Product, quantity})
     }
   },
   actions: {
-    addProduktToCart: ({commit}, { produkt, quantity }) => {
-      commit('ADD_TO_CART', { produkt, quantity })
+    addProductToCart: ({commit}, { Product, quantity }) => {
+      commit('ADD_TO_CART', { Product, quantity })
     }
   }
 }

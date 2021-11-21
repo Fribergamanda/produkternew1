@@ -3,7 +3,7 @@
   <nav class="navbar navbar-expand-lg navbar-light py-4 ">
     <div class="container">
       <router-link class="navbar-brand" to="/">
-        <i class="fas fa-store mx-2"></i> Dammsugare.shop
+        <i class="fas fa-store mx-2"></i> Dammsugare
       </router-link>
 
       <button
@@ -23,10 +23,10 @@
           <router-link class="nav-link" to="/">Startsida</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/produkter">Produkter</router-link>
+          <router-link class="nav-link" to="/Products">Produkter</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/about">Om oss</router-link>
+          <router-link class="nav-link" to="/Om-oss">Om oss</router-link>
         </li>
       </ul>
   

@@ -2,10 +2,10 @@
   <div class="cart-item">
     <div class="p-2">
       <div class="kundvagn">
-        <img :src="item.produkt.image" alt="" class="img-fluid">
+        <img :src="item.ProductImage" alt="" class="img-fluid">
         <div>
-          <div><strong>{{ item.produkt.name }}</strong></div>
-          <div><small>{{ item.quantity }} x {{ item.produkt.price }}kr</small></div>
+          <div><strong>{{ item.ProductName }}</strong></div>
+          <div><small>{{ item.quantity }} x {{ item.ProductPrice }}kr</small></div>
         </div>
       </div>
       <div>
